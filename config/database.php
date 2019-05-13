@@ -44,11 +44,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('MYSQL_ADDON_HOST', '127.0.0.1'),
+            'host' => env('MYSQL_ADDON_HOST', 'b9tug8tke8j5jknpc4st-mysql.services.clever-cloud.com'),
             'port' => env('MYSQL_ADDON_PORT', '3306'),
-            'database' => env('MYSQL_ADDON_DB', 'forge'),
+            'database' => env('MYSQL_ADDON_DB', 'b9tug8tke8j5jknpc4st'),
             'username' => env('MYSQL_ADDON_USER', 'forge'),
-            'password' => env('MYSQL_ADDON_PASSWORD', ''),
+            'password' => env('MYSQL_ADDON_PASSWORD', '7qNLLXq1kisWx0lWp4n0'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
